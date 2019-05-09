@@ -15,22 +15,7 @@
     const host = 'shadowsocks.github.io';
     if(window.location.host === host && window.location.protocol !== 'https:') {
       window.location.protocol = 'https:';
-    }
-    window.$docsify = {
-      homepage: 'home.md',
-      coverpage: true,
-      onlyCover: true,
-      loadSidebar: true,
-      subMaxLevel: 2,
-      name: 'Shadowsocks-Manager',
-      themeColor: '#2196F3',
-      repo: 'https://github.com/shadowsocks/shadowsocks-manager/',
-      search: {
-        maxAge: 86400000,
-        paths: 'auto', 
-        placeholder: '搜索',
-        noData: '找不到结果',
-      },
+
     };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
